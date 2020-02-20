@@ -5,7 +5,7 @@ class Shoe
   BRANDS = []
   def initialize(brand)
     @brand = brand
-    if 
+    if BRANDS.find
   end
 
   def cobble
