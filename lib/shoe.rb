@@ -8,7 +8,8 @@ class Shoe
     BRANDS.each do |item|
       if item!=brand
         BRANDS << brand
-    
+      end 
+    end
   end
 
   def cobble
