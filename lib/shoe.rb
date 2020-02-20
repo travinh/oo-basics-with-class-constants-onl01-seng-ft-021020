@@ -12,8 +12,10 @@ class Shoe
     puts "Your shoe is as good as new!"
   end
 
-    def brand=(brand2)
-      @brand = brand2
-      BRANDS << brand2
+    def brand=(brand)
+      puts "hi"
+      @brand = brand
+      BRANDS << brand
+      puts "hello"
     end
 end
