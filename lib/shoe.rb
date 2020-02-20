@@ -5,7 +5,7 @@ class Shoe
   BRANDS = []
   def initialize(brand)
     @brand = brand
-    if BRANDS.length >0 
+    if BRANDS.length > 0 
       BRANDS.each do |item|
         if item!=brand
           BRANDS << brand
