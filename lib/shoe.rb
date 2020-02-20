@@ -13,7 +13,6 @@ class Shoe
   end
 
     def brand=(brand)
-      puts "hi"
       @brand = brand
       BRANDS << brand
       puts "hello"
